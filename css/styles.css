@@ -1,1 +1,23 @@
 /* main styles for henrietta pharmacy site  */
+#main-header {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: skyblue;
+}
+
+.sidebar {
+  color: white;
+  background-color: black;
+  padding: .5em;
+  border-radius: 1em;
+  margin-top: 1em;
+}
+
+.columns {
+  padding-top: 1em;
+}
+
+.troubleshoot {
+  background-color: tomato;
+}
