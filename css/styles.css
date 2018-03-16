@@ -3,7 +3,14 @@
   text-align: center;
   padding-top: 2em;
   padding-bottom: 2em;
+  background-image: url(https://placeimg.com/635/200/animals);
   background-color: skyblue;
+  background-repeat: no-repeat;
+}
+
+.standout {
+  color: skyblue;
+  text-shadow: 2px 2px black;
 }
 
 .sidebar {
@@ -14,10 +21,30 @@
   margin-top: 1em;
 }
 
+.sidebar > p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .columns {
   padding-top: 1em;
 }
 
 .troubleshoot {
   background-color: tomato;
+}
+
+.sub-header {
+  font-style: italic;
+}
+
+.side-header {
+  font-weight: bold;
+  color: skyblue;
+}
+
+.float {
+  float: left;
+  margin-right: .5em;
+  margin-top: .5em;
 }
