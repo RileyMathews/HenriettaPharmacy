@@ -5,6 +5,7 @@
   padding-bottom: 2em;
   background-image: url(https://placeimg.com/635/200/animals);
   background-color: skyblue;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
