@@ -16,16 +16,19 @@
 
 <body>
   <div class="container">
-    <div class="jumbotron">
-      <h1 class="standout">Henrietta Pharmacy</h1>
-      <h4 class="sub-header standout">Your Hometown Pharmacy</h4>
+    <div class="row content-section">
+      <div class="jumbotron-fluid col">
+        <h1 class="standout">Henrietta Pharmacy</h1>
+        <hr class="my-4">
+        <h4 class="sub-header standout">Your Hometown Pharmacy</h4>
+      </div>
     </div>
     <main class="row">
-      <div class="col-md-8">
+      <div class="col-md-8 content-section" id="main-content">
         <h2>About Us</h2>
-        <p><img class="float" src="https://placeimg.com/200/200/animals">Placeholder Text: Etiam ante. Massa nisl. Consectetuer odio. Cras turpis litora sociis eu porta leo. Aenean maecenas mauris sodales, faucibus sit sodales arcu imperdiet eros blandit lacinia rutrum vel metus fames euismod luctus ac fames class dictumst placerat, pharetra consectetuer turpis Dictum eros. Ad egestas non vitae molestie. Per. Nulla non lacinia ligula sed. Elementum per nunc dapibus pharetra ridiculus varius maecenas, mi laoreet rhoncus tincidunt hymenaeos facilisis morbi. Aptent hac lorem mi consectetuer. Cras magna, eget tempus interdum pede habitasse dui erat ornare lectus ante etiam et praesent morbi. Tincidunt venenatis dis elit dignissim justo fringilla, sociosqu dictum mattis arcu. Iaculis.</p>
+        <p><img id="main-pic" class="float" src="https://placeimg.com/200/200/animals">Placeholder Text: Etiam ante. Massa nisl. Consectetuer odio. Cras turpis litora sociis eu porta leo. Aenean maecenas mauris sodales, faucibus sit sodales arcu imperdiet eros blandit lacinia rutrum vel metus fames euismod luctus ac fames class dictumst placerat, pharetra consectetuer turpis Dictum eros. Ad egestas non vitae molestie. Per. Nulla non lacinia ligula sed. Elementum per nunc dapibus pharetra ridiculus varius maecenas, mi laoreet rhoncus tincidunt hymenaeos facilisis morbi. Aptent hac lorem mi consectetuer. Cras magna, eget tempus interdum pede habitasse dui erat ornare lectus ante etiam et praesent morbi. Tincidunt venenatis dis elit dignissim justo fringilla, sociosqu dictum mattis arcu. Iaculis.</p>
       </div>
-      <div class="col-md-4 sidebar">
+      <div class="col-md-4 sidebar content-section">
         <h5>Location and Hours: </h5>
         <p class="side-header">We are located on the corner at:</p>
         <p>124 North Bridge<br>Henrietta, TX 76365</p>
@@ -43,16 +46,16 @@
         <p>Fax: 940-538-6345</p>
       </div>
     </main>
-    <div id="services">
+    <div id="services" class="content-section">
       <h2>Services</h2>
       <div class="row">
         <div class="col-md-6">
-          <h4>Photo Center</h4>
-          <a href="http://gnpphoto.com" target="_blank  "><button id="photoCenter" class="btn btn-primary" name="photos">Photo Center</button></a>
+          <h4 class="responsive-header">Photo Center</h4>
+          <a href="http://gnpphoto.com" target="_blank"><button id="photoCenter" class="btn btn-primary" name="photos">Photo Center</button></a>
           <p>Our new photo machine has more options such as print photos from your Iphone or other device with USB cable, Facebook account, Flatbed scanner, and other options! Log in or create an account and upload your photos. You can place an order today and come into the store where you can log in and choose which photos you want to print.</p>
         </div>
         <div class="col-md order-md-first">
-          <h4>Rx Refill</h4>
+          <h4 class="responsive-header">Rx Refill</h4>
           <a href="https://4575885.winrxrefill.com/" target="_blank"><button id="refillCenter" class="btn btn-primary" name="refill">Refill Center</button></a>
           <p>To submit your refills online, please follow the link above to our refill center.</p>
         </div>

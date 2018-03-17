@@ -1,12 +1,20 @@
 /* main styles for henrietta pharmacy site  */
-.jumbotron {
+
+.jumbotron-fluid {
   text-align: center;
   padding-top: 2em;
   padding-bottom: 4em;
-  background-image: url(https://placeimg.com/635/200/animals);
-  background-color: skyblue;
+  background: linear-gradient(to right, rgba(135, 206, 235, .50), rgba(255, 255, 255, 0.5)), url(https://placeimg.com/635/200/animals);
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 0;
+}
+
+.content-section {
+  margin-top: 0;
+  margin-bottom: 0;
+  align-content: center;
+  text-align: center;
 }
 
 .standout {
@@ -17,9 +25,7 @@
 .sidebar {
   color: white;
   background-color: black;
-  padding: .5em;
-  border-radius: 1em;
-  margin-top: 1em;
+  border-radius: 0;
 }
 
 .sidebar > p {
@@ -44,8 +50,46 @@
   color: skyblue;
 }
 
-.float {
-  float: left;
-  margin-right: .5em;
-  margin-top: .5em;
+#main-pic {
+  display: none;
+  float: none;
+}
+
+#main-content {
+  background: linear-gradient(rgba(135, 206, 235, .50), rgba(255, 255, 255, 0.5)), url(https://placeimg.com/200/200/animals);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.responsive-header {
+  display: none;
+}
+
+/* media queries */
+
+@media (min-width: 576px) {
+  #main-pic {
+    display: initial;
+    float: left;
+    margin: .5em .5em 0 0;
+  }
+
+  #main-content {
+    background: none;
+  }
+
+  .sidebar {
+    border-radius: 1em;
+  }
+
+  .content-section {
+    margin-top: 0;
+    margin-bottom: 1em;
+    align-content: initial;
+    text-align: initial;
+  }
+
+  .responsive-header {
+    display: block;
+  }
 }
