@@ -1,7 +1,7 @@
 var urlStart = "url(img/bg";
 var urlEnd = ".jpg)";
-var x = 1;
-var time = 3000
+var x = 2;
+var time = 10000;
 var jumbo = document.getElementById("bg");
 
 
