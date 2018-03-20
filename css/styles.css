@@ -1,5 +1,14 @@
 /* main styles for henrietta pharmacy site  */
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
 .jumbotron-fluid {
   text-align: center;
   padding-top: 2em;
@@ -84,7 +93,11 @@ footer {
   border-top: 5px solid skyblue;
   color: white;
   text-align: center;
-  padding: 1em;
+  height: 60px;
+  line-height: 55px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 footer > p {
