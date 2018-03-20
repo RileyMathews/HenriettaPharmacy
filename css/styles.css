@@ -19,10 +19,26 @@ body {
   background-repeat: no-repeat;
   margin: 0;
   transition-property: background-image;
-  transition-duration: 5s;
-  -webkit-transition-duration: 5s;
-  -moz-transition-duration: 5s;
-  -o-transition-duration: 5s;
+  transition-duration: 2s;
+  -webkit-transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  -o-transition-duration: 2s;
+}
+
+.standout {
+  color: skyblue;
+  text-shadow: 2px 2px black;
+}
+
+#main-content {
+  background: linear-gradient(rgba(135, 206, 235, .50), rgba(255, 255, 255, 0.5)), url(https://placeimg.com/200/200/animals);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main-pic {
+  display: none;
+  float: none;
 }
 
 .content-section {
@@ -30,11 +46,6 @@ body {
   margin-bottom: 0;
   align-content: center;
   text-align: center;
-}
-
-.standout {
-  color: skyblue;
-  text-shadow: 2px 2px black;
 }
 
 .sidebar {
@@ -53,10 +64,6 @@ body {
   padding-top: 1em;
 }
 
-.troubleshoot {
-  background-color: tomato;
-}
-
 .sub-header {
   font-style: italic;
 }
@@ -64,17 +71,6 @@ body {
 .side-header {
   font-weight: bold;
   color: skyblue;
-}
-
-#main-pic {
-  display: none;
-  float: none;
-}
-
-#main-content {
-  background: linear-gradient(rgba(135, 206, 235, .50), rgba(255, 255, 255, 0.5)), url(https://placeimg.com/200/200/animals);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .service {
@@ -117,12 +113,6 @@ button {
 /* media queries */
 
 @media (min-width: 576px) {
-  #main-pic {
-    display: initial;
-    float: left;
-    margin: .5em .5em 0 0;
-  }
-
   .jumbotron-fluid {
     margin: 0 0 1em 0;
     border-bottom: 5px solid skyblue;
@@ -130,6 +120,12 @@ button {
 
   #main-content {
     background: none;
+  }
+
+  #main-pic {
+    display: initial;
+    float: left;
+    margin: .5em .5em 0 0;
   }
 
   .sidebar {
@@ -165,4 +161,9 @@ button {
   .container {
     background-color: white;
   }
+}
+
+
+.debug {
+  background-color: tomato;
 }
