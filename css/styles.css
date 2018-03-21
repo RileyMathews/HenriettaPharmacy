@@ -17,6 +17,7 @@ body {
   background-image: url(../img/bg1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   margin: 0;
   transition-property: background-image;
   transition-duration: 2s;
@@ -27,13 +28,17 @@ body {
 
 .standout {
   color: skyblue;
-  text-shadow: 2px 2px black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 3px 3px 10px black;
 }
 
 #main-content {
-  background: linear-gradient(rgba(135, 206, 235, .50), rgba(255, 255, 255, 0.5)), url(https://placeimg.com/200/200/animals);
+  background: linear-gradient(rgba(135, 206, 235, .50), rgba(255, 255, 255, 0.5)), url(../img/about-us2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#main-content > p {
+  font-size: 1.3em;
 }
 
 #main-pic {
@@ -125,7 +130,8 @@ button {
   #main-pic {
     display: initial;
     float: left;
-    margin: .5em .5em 0 0;
+    margin: .5em 1em .5em 0;
+    box-shadow: 5px 5px 10px black;
   }
 
   .sidebar {
@@ -146,16 +152,30 @@ button {
   .service {
     margin-left: 1em;
     padding: 1em;
-    border-left: 10px solid lightgrey;
+    text-align: center;
+    align-content: center;
+    border-left: 10px solid skyblue;
     border-radius: 30px 0 30px 10px;
     box-shadow: 5px 5px 10px black;
     margin-bottom: 20px;
-    background: linear-gradient(to right, rgba(255, 255, 255, 1) 60%, rgba(255, 255, 255, 0.8)), url(https://placeimg.com/640/480/tech);
   }
 
-  .service {
-    text-align: center;
-    align-content: center;
+  .s1 {
+    background: linear-gradient(to right, rgba(255, 255, 255, .8) 60%, rgba(255, 255, 255, 0.8)), url(../img/refill-image.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .s2 {
+    background: linear-gradient(to right, rgba(255, 255, 255, .8) 60%, rgba(255, 255, 255, 0.8)), url(../img/photo-machine.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .s3 {
+    background: linear-gradient(to right, rgba(255, 255, 255, .8) 60%, rgba(255, 255, 255, 0.8)), url(../img/delivery.jpg);
+    background-position: center;
+    background-size: cover;
   }
 
   .container {
