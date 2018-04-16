@@ -27,6 +27,10 @@ body {
   -o-transition-duration: 2s;
 }
 
+.btn-lg {
+  margin: 1em;
+}
+
 .jumbotron-fluid h1 {
   font-size: 5em;
 }
