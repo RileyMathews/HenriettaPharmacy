@@ -8,6 +8,12 @@
   <meta name="keywords" content="Pharmacy, Medicine, Rx, Perscription, Henrietta Pharmacy, your hometown pharmacy, pharmacist, pharmacy on the corner">
   <meta name="author" content="Riley Mathews">
   <meta name="viewport" content="width=device-width">
+  <script>
+    (function (h, e, a, t, m, p) {
+      m = e.createElement(a); m.async = !0; m.src = t;
+      p = e.getElementsByTagName(a)[0]; p.parentNode.insertBefore(m, p);
+    })(window, document, 'script', 'https://u.heatmap.it/log.js');
+  </script>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
@@ -23,11 +29,17 @@
   </div>
 
   <!-- about us component -->
-  <div class="container"> <!-- wrapper for main page body -->
+  <div class="container">
+    <!-- wrapper for main page body -->
     <main class="row">
       <div class="col-md-8 content-section" id="main-content">
         <h2>About Us</h2>
-        <p class="clearfix"><img id="main-pic" class="float" src="img/about-us2.jpg" alt="Mark Mathews the pharmacist, working at the pharmacy">At the Henrietta Pharmacy, our valued customers are also our neighbors.  Serving the community since 1987, we are an independent, locally-owned pharmacy who puts you and your family’s health first.  We have a drive thru at the back of the store for those customers on the go, but if there is time to come in we invite you to browse our variety of products including greeting cards, gifts, electronics, and more. Our staff is ready to welcome you to your pharmacy on the corner.
+        <p class="clearfix">
+          <img id="main-pic" class="float" src="img/about-us2.jpg" alt="Mark Mathews the pharmacist, working at the pharmacy">At the Henrietta Pharmacy, our valued customers are also our neighbors. Serving the community since 1987, we are
+          an independent, locally-owned pharmacy who puts you and your family’s health first. We have a drive thru at the
+          back of the store for those customers on the go, but if there is time to come in we invite you to browse our variety
+          of products including greeting cards, gifts, electronics, and more. Our staff is ready to welcome you to your pharmacy
+          on the corner.
         </p>
       </div>
 
@@ -35,7 +47,8 @@
       <div class="col-md-4 sidebar content-section">
         <h5>Location and Hours: </h5>
         <p class="side-header">We are located on the corner at:</p>
-        <p>124 North Bridge<br>Henrietta, TX 76365</p>
+        <p>124 North Bridge
+          <br>Henrietta, TX 76365</p>
         <br>
         <p class="side-header">Our Hours are:</p>
         <p>Monday-Friday: 8:30am - 7:30pm</p>
@@ -50,34 +63,44 @@
         <p>Fax: 940-538-6345</p>
       </div>
     </main>
-    
+
     <!-- services component -->
     <div id="services" class="content-section">
       <h2>Services</h2>
-      <div class="row"> <!-- second main row -->
+      <div class="row">
+        <!-- second main row -->
 
         <!-- refill center component -->
         <div class="col-md service s1">
           <h4 class="responsive-header">Rx Refill</h4>
-          <a href="https://4575885.winrxrefill.com/" target="_blank"><button id="refillCenter" class="btn btn-primary" name="refill">Refill Center</button></a>
-          <p>To submit your refills online, please follow the link above to our refill center. Alternatively you can download the WinRx app, more info can be found also in the link above.</p>
+          <a href="https://4575885.winrxrefill.com/" target="_blank">
+            <button id="refillCenter" class="btn btn-primary" name="refill">Refill Center</button>
+          </a>
+          <p>To submit your refills online, please follow the link above to our refill center. Alternatively you can download
+            the WinRx app, more info can be found also in the link above.</p>
         </div>
 
         <!-- photo center component -->
         <div class="col-md-6 service s2">
           <h4 class="responsive-header">Photo Center</h4>
-          <a href="http://gnpphoto.com" target="_blank"><button id="photoCenter" class="btn btn-primary" name="photos">Photo Center</button></a>
-          <p>Our new photo machine has more options such as print photos from your Iphone or other device with USB cable, Facebook account, Flatbed scanner, and other options! Log in or create an account and upload your photos. You can place an order today and come into the store where you can log in and choose which photos you want to print.</p>
+          <a href="http://gnpphoto.com" target="_blank">
+            <button id="photoCenter" class="btn btn-primary" name="photos">Photo Center</button>
+          </a>
+          <p>Our new photo machine has more options such as print photos from your Iphone or other device with USB cable, Facebook
+            account, Flatbed scanner, and other options! Log in or create an account and upload your photos. You can place
+            an order today and come into the store where you can log in and choose which photos you want to print.</p>
         </div>
 
         <!-- delivery service component -->
         <div class="col-md service s3">
           <h4>Rx Delivery</h4>
-          <p>Don't forget we offer delivery services in town for your perscription refills. This service adds an extra $2.00 charge to your order.</p>
+          <p>Don't forget we offer delivery services in town for your perscription refills. This service adds an extra $2.00
+            charge to your order.</p>
         </div>
       </div>
     </div>
-  </div> <!-- closes container div -->
+  </div>
+  <!-- closes container div -->
 
   <!-- footer component -->
   <footer>
