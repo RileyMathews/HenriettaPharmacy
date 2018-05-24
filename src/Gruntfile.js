@@ -39,7 +39,7 @@ module.exports = function (grunt) {
         browserify: {
             options: {
                 browserifyOptions: {
-                    debug: true,
+                    debug: false,
                     paths: ["./scripts"],
                 }
             },
